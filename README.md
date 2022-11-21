@@ -11,7 +11,7 @@ The introduction manual of the package is in [Manual](https://github.com/wanghao
 #### Introduction
 
 Fast Interpretable Greedy-Tree Sums (FIGS) is an algorithm for fitting concise rule-based models. Specifically, FIGS generalizes CART to simultaneously grow a flexible number of trees in a summation. The total number of splits across all the trees can be restricted by a prespecified threshold, keeping the model interpretable.
-Experiments across real-world datasets show that FIGS achieves state-of-the-art prediction performance when restricted to just a few splits (e.g. less than 20). 'FIGS' is first defined in Tan et al. (2022) )<https://arxiv.org/abs/2201.11931>
+Experiments across real-world datasets show that FIGS achieves state-of-the-art prediction performance when restricted to just a few splits (e.g. less than 20). 'FIGS' is first defined in Tan et al. (2022) <https://arxiv.org/abs/2201.11931>
 
 #### Key function
 
