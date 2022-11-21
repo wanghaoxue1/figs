@@ -82,4 +82,3 @@ fit2 <-figs.regressor(X_reg, Y_reg, max_rules=12, sample_weight = rep(1,nrow(X_c
  adding node x10 <= 0.08843308
 > 
 ```
-
