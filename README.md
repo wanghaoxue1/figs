@@ -6,9 +6,11 @@
 
 This package is R version for the FIGS algorithms based on python, hopefully following R version for 
 
-[imodels]: https://github.com/csinva/imodels	" "
+[imodels](https://github.com/csinva/imodels)
 
 will be developed in the furture.
+
+The manual of the package is in [Manual](https://github.com/wanghaoxue1/figs/blob/main/figs_0.8.pdf)
 
 #### Introduction
 
