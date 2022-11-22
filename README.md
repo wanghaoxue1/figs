@@ -62,21 +62,22 @@ fit2 <-figs.regressor(X_reg, Y_reg, max_rules=12, sample_weight = rep(1,nrow(X_c
 ```R
 > fit1 <- figs.classifier(X_cls, Y_cls, max_rules=3, sample_weight = rep(1,nrow(X_cls)))
 
- adding node V23 <= 92.5225  # the same result as the python simulation
- adding node V30 <= 0.236422 # for the classification problem, we put y into number for residual caculation
- adding node V25 <= 0.3783622
+ adding node V23 <= 16.795 # the same result as the python simulation
+ adding node V30 <= 0.1358 # for the classification problem, we transfer y into number for residual caculation
+ adding node V25 <= 104.95
+
 > fit2 <-figs.regressor(X_reg, Y_reg, max_rules=11, sample_weight = rep(1,nrow(X_cls)))
 
- adding node x6 <= 0.04461191 # see the output in R for detail structure
- adding node x1 <= 0.07474517 
- adding node x2 <= 0.1974457
- adding node x9 <= 0.111539
- adding node x4 <= 0.07216289
- adding node x2 <= 0.09328108
- adding node x9 <= 0.1909042  
- adding node x5 <= 0.1009846
- adding node x1 <= 0.03279004   # begin to grow another tree to fit the data
- adding node x2 <= 0.1268979
- adding node x10 <= 0.08843308
+ adding node x6 <= 0.4455641 # see the output in R for detail structure
+ adding node x1 <= 0.4043588
+ adding node x2 <= 0.4892177
+ adding node x9 <= 0.2732258
+ adding node x4 <= 0.791582
+ adding node x2 <= 0.4435662
+ adding node x9 <= 0.654545
+ adding node x5 <= 0.790525
+ adding node x1 <= 0.4024863 # begin to grow another tree to fit the data
+ adding node x2 <= 0.1795486
+ adding node x10 <= 0.3362207
 > 
 ```
