@@ -6,7 +6,7 @@
 
 This package is R version for the FIGS algorithms based on python, hopefully following R version for [imodels](https://github.com/csinva/imodels) will be developed in the furture.
 
-The introduction manual of the package is in [Manual](https://github.com/wanghaoxue1/figs/blob/main/figs_0.8.pdf).
+The introduction manual of the package is in [Manual](https://github.com/wanghaoxue1/figs/blob/main/figs_0.8.pdf). The plot function is still TBD.
 
 #### Introduction
 
@@ -27,7 +27,7 @@ Experiments across real-world datasets show that FIGS achieves state-of-the-art 
 ##### Install all the packages .
 
 ```R
-install.packages("figs") # not available not as in revison and not published yet
+install.packages("figs") # not available as still in revison and not published yet
 install.packages("rpart") # based on orginal tree split algorithms
 install.packages("fastshap") # to generate friedman dataset as required 
 library(rpart)
