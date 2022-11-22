@@ -60,7 +60,7 @@ fit2 <-figs.regressor(X_reg, Y_reg, max_rules=12, sample_weight = rep(1,nrow(X_c
 ```
 
 ```R
- fit1 <- figs.classifier(X_cls, Y_cls, max_rules=3, sample_weight = rep(1,nrow(X_cls)))
+> fit1 <- figs.classifier(X_cls, Y_cls, max_rules=3, sample_weight = rep(1,nrow(X_cls)))
 
  adding node V23 <= 92.5225  # the same result as the python simulation
  adding node V30 <= 0.236422 # for the classification problem, we put y into number for residual caculation
