@@ -62,22 +62,23 @@ fit2 <-figs.regressor(X_reg, Y_reg, max_rules=12, sample_weight = rep(1,nrow(X_c
 ```R
 > fit1 <- figs.classifier(X_cls, Y_cls, max_rules=3, sample_weight = rep(1,nrow(X_cls)))
 
- adding node V23 <= 16.795 # the same result as the python simulation
- adding node V30 <= 0.1358 # for the classification problem, we transfer y into number for residual caculation
- adding node V25 <= 104.95
+ adding node V23 <= 16.795 Val: 0.9129288 (left) 0.05789474 (right) # the same result as the python simulation
+ adding node V30 <= 0.1358 Val: 0.3913043 (left) 0.984985 (right) # for the classification problem, we transfer y into number for residual caculation
+ adding node V25 <= 104.95 Val: 0.04166667 (left) 0.9090909 (right)
 
 > fit2 <-figs.regressor(X_reg, Y_reg, max_rules=11, sample_weight = rep(1,nrow(X_cls)))
 
- adding node x6 <= 0.4455641 # see the output in R for detail structure
- adding node x1 <= 0.4043588
- adding node x2 <= 0.4892177
- adding node x9 <= 0.2732258
- adding node x4 <= 0.791582
- adding node x2 <= 0.4435662
- adding node x9 <= 0.654545
- adding node x5 <= 0.790525
- adding node x1 <= 0.4024863 # begin to grow another tree to fit the data
- adding node x2 <= 0.1795486
- adding node x10 <= 0.3362207
+ adding node x6 <= 0.4455641 Val: 13.38568 (left) 16.10976 (right) # see the output in R for detail structure
+ adding node x1 <= 0.4043588 Val: 11.91155 (left) 15.26184 (right)
+ adding node x2 <= 0.4892177 Val: 12.82209 (left) 18.30681 (right)
+ adding node x9 <= 0.2732258 Val: 11.72698 (left) 16.11151 (right)
+ adding node x4 <= 0.791582 Val: 11.96541 (left) 16.78442 (right)
+ adding node x2 <= 0.4435662 Val: 13.34833 (left) 17.1886 (right)
+ adding node x9 <= 0.654545 Val: 14.72727 (left) 19.95271 (right)
+ adding node x5 <= 0.790525 Val: 12.67281 (left) 17.07141 (right)
+ adding node x1 <= 0.4024863 Val: -1.136916 (left) 1.092331 (right) # begin to grow another tree to fit the data
+ adding node x2 <= 0.1795486 Val: 11.02559 (left) 16.95749 (right)
+ adding node x10 <= 0.3362207 Val: 12.2713 (left) 16.47628 (right)
+
 > 
 ```
