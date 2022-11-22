@@ -264,7 +264,7 @@ figs.classifier <- function(X, y, max_rules = 12, feature_names=NULL, sample_wei
       break
     }
     if (verbose==TRUE){
-      cat("\n","adding node", split_node$feature,"<=", split_node$impurity_reduction)
+      cat("\n","adding node", split_node$feature,"<=", split_node$threshold)
     }
     complexity = complexity + 1
     # if added a tree root
@@ -426,7 +426,7 @@ figs.regressor <- function(X, y, max_rules = 12, feature_names=NULL,verbose=TRUE
       break
     }
     if (verbose==TRUE){
-      cat("\n","adding node", split_node$feature,"<=", split_node$impurity_reduction)
+      cat("\n","adding node", split_node$feature,"<=", split_node$threshold)
     }
     complexity = complexity + 1
     # if added a tree root
